@@ -14,7 +14,7 @@ model = InferenceClientModel("Qwen/Qwen2.5-7B-Instruct")
 
 model = OpenAIServerModel(
     model_id="meta-llama/llama-3.3-70b-instruct",  
-    api_key="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",
+    api_key=# valid api key,
     api_base="https://openrouter.ai/api/v1/"
 )
 
